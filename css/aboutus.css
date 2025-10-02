@@ -1,0 +1,128 @@
+
+
+header {
+    text-align: center;
+    padding: 40px 20px 20px 20px;
+}
+
+.logo-container {
+    flex-shrink: 0;
+    display: inline-block;
+}
+
+.logo {
+    height: 50px;
+    width: auto;
+    vertical-align: middle;
+}
+
+.tagline {
+    font-size: 1.2rem;
+    color: #7a8b7a;
+    margin-top: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 2px;
+}
+
+.nav-menu {
+    margin-top: 30px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    font-family: 'Arial Black', Arial, sans-serif;
+    user-select: none;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: #1a2a40;
+    transition: color 0.3s ease;
+}
+
+.nav-list li a:hover {
+    color: #007bff;
+}
+
+.plus-icon {
+    border: 1px solid #1a2a40;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.plus-icon a {
+    font-size: 1.8rem;
+    line-height: 1;
+    color: #1a2a40;
+    font-weight: bold;
+}
+
+/* Tags Row */
+.tags-row {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    font-family: Arial, sans-serif;
+    font-size: 0.9rem;
+    color: #000;
+    user-select: none;
+}
+
+.aboutus-content {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 0 25px;
+    line-height: 1.8;
+    font-size: 1.05em;
+    color: #333;
+}
+
+.aboutus-content h2 {
+    font-size: 2.4em;
+    margin-bottom: 25px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.aboutus-content p {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.aboutus-footer {
+    background-color: #f8f8f8;
+    border-top: 1px solid #ddd;
+    padding: 20px 30px;
+    text-align: center;
+    font-size: 1em;
+    color: #444;
+}
+
+.social-contact a {
+    margin: 0 15px;
+    color: #222;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1em;
+}
+
+.social-contact a:hover {
+    color: #007bff;
+}
+
+.social-contact .phone {
+    margin-left: 15px;
+    font-weight: 600;
+    font-size: 1em;
+}
